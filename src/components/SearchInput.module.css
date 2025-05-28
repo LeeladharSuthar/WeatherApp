@@ -1,0 +1,46 @@
+/* SearchInput.module.css */
+
+.inputWrapper {
+  position: relative;
+  width: 300px;
+  margin: 1rem auto;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 110%;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  z-index: 10;
+}
+
+.dropdown li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  list-style: none;
+  border-bottom: 1px solid #eee;
+}
+
+.dropdown li:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown small {
+  display: block;
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 0.2rem;
+}
